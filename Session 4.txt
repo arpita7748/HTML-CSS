@@ -1,0 +1,216 @@
+1.Create an HTML file that uses semantic tags to build a simple blog post layout with <header> for the blog title, <nav> for navigation links (Home, Explore, About), <article> for the main post content, and <footer> for copyright information.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Blog</h1>
+        <p>Welcome to my blog!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#explore">Explore</a> |
+        <a href="#about">About</a>
+    </nav>
+
+    <main>
+        <article id="home">
+            <header>
+                <h2>My Web Development Journey</h2>
+                <p>Published on October 11, 2026</p>
+            </header>
+
+            <p>
+                I am learning HTML and CSS to build beautiful websites.
+                Semantic HTML helps me create meaningful and well-structured
+                web pages.
+            </p>
+        </article>
+
+        <section id="explore">
+            <h2>Explore More</h2>
+            <p>Discover more articles about programming and technology.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a computer science graduate learning web development.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Personal Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2.Recreate a Zomato-style restaurant listing card using semantic HTML5 tags: use <article> for each restaurant, <header> for the restaurant name, and <footer> for rating and delivery time.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Listings</title>
+</head>
+<body>
+
+    <header>
+        <h1>Popular Restaurants</h1>
+    </header>
+
+    <main>
+        <article>
+            <header>
+                <h2>Pizza Palace</h2>
+            </header>
+
+            <p>Italian food, pizza and pasta.</p>
+            <p>Price: ₹250 for one</p>
+
+            <footer>
+                <p>Rating: 4.5/5</p>
+                <p>Delivery Time: 25 minutes</p>
+            </footer>
+        </article>
+
+        <hr>
+
+        <article>
+            <header>
+                <h2>Burger House</h2>
+            </header>
+
+            <p>Burgers, fries and sandwiches.</p>
+            <p>Price: ₹180 for one</p>
+
+            <footer>
+                <p>Rating: 4.2/5</p>
+                <p>Delivery Time: 30 minutes</p>
+            </footer>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Restaurant Listings</p>
+    </footer>
+
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3.Build a Flipkart-style product page section with semantic tags: use <header> for the product title and image, <nav> for category breadcrumbs, <article> for product details and description, and <footer> for offers or warranty info.<br><br><em><strong>Hint:</strong> Focus on the correct use of tags for structure, not just visual layout.</em>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+</head>
+<body>
+
+    <header>
+        <h1>Flipkart Product Store</h1>
+    </header>
+
+    <nav aria-label="Breadcrumb">
+        <a href="#">Home</a> &gt;
+        <a href="#">Electronics</a> &gt;
+        <a href="#">Mobile Phones</a>
+    </nav>
+
+    <main>
+        <article>
+            <header>
+                <h2>Samsung Galaxy Smartphone</h2>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNBeEB4vdNg6zR1D-P4MFeE0YWhKvzlkTfdFtZO7pZBg&s=10"
+                    alt="Samsung Galaxy smartphone"
+                    width="250"
+                >
+            </header>
+
+            <section>
+                <h3>Product Details</h3>
+                <p>Price: ₹15,999</p>
+                <p>Brand: Samsung</p>
+                <p>Display: 6.5 inches</p>
+                <p>Storage: 128 GB</p>
+            </section>
+
+            <section>
+                <h3>Description</h3>
+                <p>
+                    This smartphone is suitable for everyday use,
+                    browsing, photography and entertainment.
+                </p>
+            </section>
+
+            <footer>
+                <h3>Offers and Warranty</h3>
+                <p>Special discount available on selected cards.</p>
+                <p>Warranty: 1 year (example offer).</p>
+            </footer>
+        </article>
+    </main>
+
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4.Given a non-semantic HTML snippet for a movie review (using only <div> and <span>), refactor it to use appropriate semantic tags like <header>, <nav>, <article>, and <footer> for improved accessibility and SEO.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review</title>
+</head>
+<body>
+
+    <header>
+        <h1>Movie Review Website</h1>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#movies">Movies</a>
+        <a href="#reviews">Reviews</a>
+    </nav>
+
+    <main id="home">
+        <article id="reviews">
+            <header>
+                <h2>Movie: 3 Idiots</h2>
+                <p>Rating: 5/5</p>
+            </header>
+
+            <p>
+                A funny and inspiring movie about college life,
+                friendship and following your passion.
+            </p>
+
+            <footer>
+                <p>Review category: Comedy and Drama</p>
+            </footer>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Movie Review Website</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+1.Create a Flipkart-style product card in HTML and CSS, then use a meta viewport tag to ensure it scales correctly on mobile devices.
+
+2.Add media queries to your product card so that when the screen width is 600px or less, the card layout switches from horizontal (image and details side by side) to vertical (image on top, details below).
+
+3.Set up three breakpoints (600px, 900px, 1200px) for your product card and change the card's font size and padding at each breakpoint to improve readability on different devices.<br><br><em><strong>Hint:</strong> Use @media only screen and (max-width: ...) in your CSS for each breakpoint.</em>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Product Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Flipkart Products</h1>
+
+    <div class="product-container">
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://placehold.co/250x200?text=Smartphone"
+                     alt="Smartphone">
+            </div>
+
+            <div class="product-details">
+                <h2>Smartphone</h2>
+                <p>6.5-inch display, 128GB storage</p>
+                <h3>₹12,999</h3>
+                <p class="offer">10% off</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://placehold.co/250x200?text=Smart+Watch"
+                     alt="Smart Watch">
+            </div>
+
+            <div class="product-details">
+                <h2>Smart Watch</h2>
+                <p>Fitness tracking and notifications</p>
+                <h3>₹2,999</h3>
+                <p class="offer">12% off</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://placehold.co/250x200?text=Shoes"
+                     alt="Sports Shoes">
+            </div>
+
+            <div class="product-details">
+                <h2>Sports Shoes</h2>
+                <p>Comfortable running shoes</p>
+                <h3>₹1,999</h3>
+                <p class="offer">25% off</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 4: Backpack -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://placehold.co/250x200?text=Backpack"
+                     alt="Backpack">
+            </div>
+
+            <div class="product-details">
+                <h2>Backpack</h2>
+                <p>Travel and college backpack</p>
+                <h3>₹999</h3>
+                <p class="offer">10% off</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+4.Test your responsive product card by resizing your browser window and taking screenshots at mobile, tablet, and desktop widths; submit the screenshots along with a short note on what changes at each size.
+
+Desktop : The products are displayed in three columns. 
+
+Tablet : The products are displayed in two columns. The layout adjusts to the smaller screen.
+
+Mobile : The products are displayed in a single column. Making the webpage easier to view on a mobile device.

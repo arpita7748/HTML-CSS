@@ -1,0 +1,102 @@
+1.Create a new HTML file called foodie-profile.html with the full HTML5 boilerplate structure (<!DOCTYPE html>, <html>, <head>, <body>), and set the title to 'My Foodie Profile'.
+
+2.Inside foodie-profile.html, add headings and paragraphs to introduce yourself as a food lover, including your favorite cuisine and a short story about your best meal.
+
+3.Add an unordered list of your top 5 favorite dishes (like you'd see on Zomato), and a numbered list of 3 restaurants you want to try next.
+
+4.Insert an image of your favorite dish using the <img> tag, and make the image clickable so it opens the official website of that dish or restaurant in a new tab using an anchor (<a>) tag.<br><br><em><strong>Hint:</strong> Use target="_blank" in your anchor tag.</em>
+
+5.Create a table that compares 3 food delivery apps (e.g., Zomato, Swiggy, Uber Eats) with columns for App Name, Delivery Charges, and Rating. Fill in sample data for each.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Foodie Profile</title>
+</head>
+
+<body>
+
+    <h1>Welcome to My Foodie Profile!</h1>
+
+    <h2>About Me</h2>
+    <p>Hello! My name is Arpita Chauhan. I am a food lover who enjoys
+       trying different dishes and exploring new flavors.</p>
+
+    <h2>My Favorite Cuisine</h2>
+    <p>My favorite cuisine is Indian cuisine because I love its spices,
+       flavors, and variety of delicious dishes.</p>
+
+    <h2>My Best Meal</h2>
+    <p>One of my best meals was enjoying delicious paneer butter masala
+       with butter naan. The creamy curry and soft naan made the meal
+       unforgettable!</p>
+
+    <h2>My Top 5 Favorite Dishes</h2>
+    <ul>
+        <li>Paneer Butter Masala</li>
+        <li>Pizza</li>
+        <li>Veg Biryani</li>
+        <li>Masala Dosa</li>
+        <li>Chole Bhature</li>
+    </ul>
+
+    <h2>3 Restaurants I Want to Try Next</h2>
+    <ol>
+        <li>Domino's Pizza</li>
+        <li>Haldiram's</li>
+        <li>Barbeque Nation</li>
+    </ol>
+
+    <h2>My Favorite Dish: Pizza</h2>
+
+    <a href="https://www.zomato.com/"
+       target="_blank">
+       
+        <img
+            src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500"
+            alt="Delicious Pizza"
+            width="300">
+    </a>
+
+    <p>Click the pizza image to visit Zomato.</p>
+
+    <h2>Food Delivery Apps Comparison</h2>
+
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>App Name</th>
+                <th>Delivery Charges</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Zomato</td>
+                <td>₹30 (sample)</td>
+                <td>4.2/5 (sample)</td>
+            </tr>
+
+            <tr>
+                <td>Swiggy</td>
+                <td>₹25 (sample)</td>
+                <td>4.3/5 (sample)</td>
+            </tr>
+
+            <tr>
+                <td>Uber Eats</td>
+                <td>₹35 (sample)</td>
+                <td>4.0/5 (sample)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Note: Delivery charges and ratings are fictional sample data
+       for this HTML exercise.</p>
+
+</body>
+</html>
